@@ -1,0 +1,9 @@
+{
+  "name": "redmine-sprintly",
+  "version": "0.0.0",
+  "description": "Copy items from Redmine to Sprint.ly.",
+  "main": "index.js",
+  "repository": "git@github.com:GraemeF/redmine-sprintly.git",
+  "author": "Graeme Foster",
+  "license": "MIT"
+}
