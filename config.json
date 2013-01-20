@@ -1,0 +1,45 @@
+{
+  "redmine": {
+    "uri": "http://example.com/redmine",
+    "apiKey": "REDMINE API KEY",
+    "project": "REDMINE PROJECT ID",
+    "query": "ID OF QUERY WITH ITEMS TO IMPORT"
+  },
+  "sprintly": {
+    "productId": "SPRINTLY PRODUCT ID",
+    "people": {
+      "other": {
+        "email": "EMAIL ADDRESS FOR DEFAULT USER",
+        "apiKey": "API KEY FOR DEFAULT USER"
+      },
+      "Alice Foo": {
+        "email": "alice@example.com",
+        "apiKey": "API KEY"
+      },
+      "Bob Bar": {
+        "email": "bob@example.com",
+        "apiKey": "API KEY"
+      }
+    }
+  },
+  "mapping": {
+    "tracker": {
+      "Task": "task",
+      "Feature": "defect",
+      "Story": "story",
+      "Defect": "defect"
+    },
+    "status": {
+      "New": "backlog",
+      "Approved": "backlog",
+      "Analysis": "in-progress",
+      "Analysis Complete": "in-progress",
+      "Developing": "in-progress",
+      "Ready For Test": "completed",
+      "Testing": "completed",
+      "Ready for Release": "accepted",
+      "Released": "accepted",
+      "Task Complete": "accepted"
+    }
+  }
+}
