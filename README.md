@@ -3,6 +3,15 @@ redmine-sprintly
 
 This is a utility to copy stuff from Redmine to Sprint.ly.
 
+Installation
+------------
+
+[Node.js](http://nodejs.org/) 0.8 is required. Then just clone this repo and run:
+
+    npm install
+    
+to install the dependencies.
+
 Usage
 -----
 
@@ -15,4 +24,8 @@ and enter your API keys and such as indicated. The following settings warrant so
 * `mapping.tracker` describes how your trackers in Redmine are mapped to item types in Sprint.ly.
 * `mapping.status` says which statuses in Redmine should be put in which list in Sprint.ly.
 
+Once configured, run the following command to do the import:
+
+    npm start
+    
 Please feel free to fork and improve this - pull requests welcome!
